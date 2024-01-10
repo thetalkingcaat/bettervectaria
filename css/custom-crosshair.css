@@ -8,7 +8,7 @@
   visibility: hidden !important;
 }
 .aim:after {
-	visibility: visible !important;
+  visibility: visible !important;
   content: var(--crosshair) !important;
   position: fixed;
   left: 50vw;
