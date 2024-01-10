@@ -1,16 +1,16 @@
 /* script created by thetalkingcat8089*/
 
 :root {
-	--crosshair: url(enter crosshair url here) 
+  --crosshair: url(enter crosshair url here) 
 }
 
 .aim {
-	visibility: hidden !important;
+  visibility: hidden !important;
 }
 .aim:after {
 	visibility: visible !important;
   content: var(--crosshair) !important;
-	position: fixed;
+  position: fixed;
   left: 50vw;
   top: 50vh;
   transform: translate(-50%, -50%);
